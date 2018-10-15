@@ -1,0 +1,580 @@
+/*-----------------------------------------------------------------------------------
+
+	Theme Name: Advoacte
+	Author: Two2Twelve Themes
+	Author URI: http://themes.two2twelve.com
+	Version: 1.0
+	
+	Stylesheet: Media Queries
+
+	0.	CSS Reset 
+	1.	Global (body, page sructure, common classes)
+	2.  Header and Navigation
+	3.  Homepage
+	4.  Blog
+	5.  Gallery
+	6.  Contact
+	7.  Donate
+	8.  Widgets
+	9.  Footer
+	10. Typography
+	11. Buttons
+	12. Lists
+	13. Forms
+	14. Icons
+	15. Events List
+	16. Event Description
+	17. About
+
+-----------------------------------------------------------------------------------*/
+
+/* For iPads and Tablets */
+@media screen and (min-width:751px) and (max-width:970px) {
+	
+	/* 1. Global */
+	/*.mobile-only { display: none !important; }	*/
+	/*.no-mobile { text-indent: -99999em; display: none !important; }*/
+	.container {
+		width: 768px;
+		margin: 0 auto;
+	}
+
+	/* 2. Header and Navigation */
+		header nav ul li {		
+			margin-right: 5px;		
+		}
+	
+	/* 3. Homepage */
+	
+	div#home div#slider img {
+		width: 100%;
+	}	
+	div#revolution_wrap div#description {
+		/*width: 100%;*/
+		text-align: center;
+		margin-bottom: 10px;
+
+
+	}
+	div#actions span.icon {
+		margin-left: 2px;
+	}
+	div#revolution_wrap div#actions {
+		/*float: left;
+		width: 100%;*/		
+	}
+		div#revolution_wrap div#actions div.one_half {
+			margin-bottom: 10px;
+		}
+	div.sub_heading, div.box_heading {
+    	margin-bottom: 20px;
+	}	
+	div#help {
+    	margin-bottom: 22px;
+    }
+		div#help .text {
+	    	margin-left: 55px;
+	    }
+	.donate_button {
+		padding: 8px 16px;
+	}	
+	div#items div.one_third {
+		width: 46%;
+	}
+	div#items div.news {
+		margin-right: 8%;
+	}
+		div#items div.news ul li {
+			margin-bottom: 12px;
+		}
+	div#items div.events {
+		margin-right: 0 !important;
+	}	
+	div#items div#sponsors {
+		/*width: 100%;*/
+		text-align: center;
+	}
+	div#items div#sponsors img {
+		
+	}
+		div#items div#sponsors ul {
+			width: 724px;
+		}
+		div#items div#sponsors ul li {
+			padding: 5px 21px 3px;
+			border-right: none;
+			background: #f9f9f9;
+			display: inline-block;
+			border-bottom: none;
+			width: 137px;
+		}	
+	
+	/* 4. Blog */
+	
+	/*div#blog {
+		width: 62%;
+	}*/	
+		div#blog img {
+			width: 100%;
+		}	
+		div#blog div.post {
+			margin-bottom: 30px;
+		}
+			
+	/* 5. Gallery */
+	
+	div.page_wrapper section.container div#gallery.page ul.gallery_thumbnails img {
+		width: 100%;
+		height: 100%;
+	}	
+	div.page_wrapper section.container div#gallery.page.with_sidebar ul.gallery_thumbnails img  {
+		width: 100%;
+		height: 100%;
+	}	
+	div.page_wrapper section.container div#gallery.page, div.page_wrapper section.container div#gallery.page ul.gallery_thumbnails.two_column, div.page_wrapper section.container div#gallery.page ul.gallery_thumbnails.three_column, div.page_wrapper section.container div#gallery.page ul.gallery_thumbnails.four_column {
+		width: 742px;
+	}	
+	div.page_wrapper section.container div#gallery ul li {
+		margin-bottom: 11px;
+	}	
+	div.page_wrapper section.container div#gallery.page ul.gallery_thumbnails.two_column li {
+		width: 361px;
+		height: 255px;				
+	}
+	div.page_wrapper section.container div#gallery.page ul.gallery_thumbnails.three_column li {
+		width: 237px;
+		height: 168px;		
+	}
+	div.page_wrapper section.container div#gallery.page ul.gallery_thumbnails.four_column li {
+		width: 175px;
+		height: 124px;		
+	}
+	div.page_wrapper section.container div#gallery.page.with_sidebar, div.page_wrapper section.container div#gallery.page.with_sidebar ul.gallery_thumbnails.two_column, div.page_wrapper section.container div#gallery.page.with_sidebar ul.gallery_thumbnails.three_column, div.page_wrapper section.container div#gallery.page.with_sidebar ul.gallery_thumbnails.four_column {
+		width: 488px;
+	}
+	div.page_wrapper section.container div#gallery.page.with_sidebar ul.gallery_thumbnails.two_column li {
+		width: 234px;
+		height: 165px;				
+	}
+	div.page_wrapper section.container div#gallery.page.with_sidebar ul.gallery_thumbnails.three_column li {
+		width: 152px;
+		height: 107px;		
+	}
+	div.page_wrapper section.container div#gallery.page.with_sidebar ul.gallery_thumbnails.four_column li {
+		width: 112px;
+		height: 79px;		
+	}
+		
+	/* 6. Contact */
+	
+	div#contact {
+		width: 62%;
+	} 	
+	div#contact div#location div.one_fourth.column_last {
+		width: 100%;
+		margin-top: 12px;
+	}	
+	div#contact div.row {
+		width: 477px;
+	}
+	div#contact div.row select {
+		margin-bottom: 25px;
+	}
+
+	/* 7. Donate */
+	
+	div#donate {
+		width: 62%;
+	}	
+		div#donate h1 {	
+			margin-bottom: 16px;
+		}
+		div#donation_level {
+			margin-top: 30px;
+		}		
+			div#donation_level p {
+				width: 100%;
+			}	
+			div#donation_level ul.amount {
+				float: left;
+				margin-top: 12px;
+			}	
+				div#donation_level ul.amount li a {
+					margin-right: 10px;
+				}
+		
+	/* 15. Events List */
+	
+	div#events_list div.list div.event_details {
+		width: 57%;
+	}
+	div#events_list div.list div.event_date {
+		width: 35%;
+	}
+	
+	/* 16. Event Description */
+
+		div#events div.event p {
+			margin-bottom: 22px;
+		}	
+		div#events div.event p.last {
+			margin-bottom: 22px;
+		}
+		div#events div.event img {
+			width: 100%
+		}
+	
+	/* 17. About */
+	
+	/*div#about, div#blog, div#contact {
+		width: 62%;
+		margin: 0 auto;
+	}*/	
+	div#about img {
+		width: 100%;
+	}
+	
+	
+}
+
+
+/* For iPhones and Mobile */
+@media only screen and (max-width:750px) {
+	
+	/* 1. Global */
+	.no-mobile { text-indent: -99999em; display: none !important; }
+	.mobile-only { text-indent: 0 !important; display: block !important; width: 100% !important; height: auto !important; visibility: visible !important; overflow: visible !important;
+        max-height: none !important; }
+	.container {
+		width: 320px;
+		overflow: hidden;
+		margin: 0 auto;
+	}	
+	section.page_heading {
+		height: 126px;
+	}
+	div.page_wrapper {
+		padding-top: 30px;
+	}
+	div.page_wrapper aside {
+		width: 100%;
+		float: none;
+	}
+	
+	/* 2. Header and Navigation */
+	/*header nav ul { display: none !important; }*/
+	/*header .select-menu { 
+		display: block;
+		float: left;
+	}
+	
+	header aside {
+		float: right;
+		padding-top: 0px;
+		width: auto;
+		margin-top: 22px;
+	}
+	
+	header nav select {
+		-webkit-padding-end: 22px;	
+		margin-top: -5px;
+	}
+	
+	header nav {
+		margin-top: 25px;
+	}
+	header nav ul {
+		padding-top: 14px;			
+		}
+		header nav ul li {	
+			margin-right: -14px;	
+		}
+			header nav ul li a {
+				font-size: 13px;
+				padding: 5px 9px;
+			}
+			header nav ul li a:hover {
+				background: none;
+				text-decoration: underline;
+			}
+				header nav ul li.current-menu-item a {
+					background: none;		
+						
+				}*/
+
+		
+	/* 3. Homepage */
+	
+	section.page_heading .logo .tagline {
+		margin-top: -9px;
+	}
+	/*div#home .page {
+		margin-top: 125px;
+	}*/
+	div#home div.sub_heading {
+		margin-bottom: 15px;
+	}
+	div#description {
+	    float: none;
+	    padding-right: 0;
+	    text-align: center;
+	    width: 100%;
+	    margin-bottom: 16px;
+	    margin-right: 0px;
+    }
+    	div#description h3 {
+	    	font-size: 20px;
+    	}
+	/*div#actions {
+	    float: none;
+	    width: 100%;
+	}*/
+		div#actions span.icon {
+			margin-left: 2px;
+		}
+		/*div#actions .one_half {
+			width: 100%;
+		}*/
+	div#help {
+		padding-bottom: 65px;
+	}	
+		div#help .text {
+			margin-left: 55px;
+		}
+			div#help .text h3 {
+				font-size: 20px;
+			}	
+		div#help .donate_button {
+			top: 130px;
+			right: 100px;
+			padding: 8px 16px;
+		}	
+	div.news, div.events, div#sponsors {
+		/*width: 100%;*/
+	}	
+	div#sponsors ul li {
+		width: 43.3%;
+	}
+	.flex-caption {
+		display: none;
+	}
+		
+	/* 4. Blog */
+	
+/*	div#blog {
+		width: 87%;
+		margin-bottom: 20px;
+	}*/
+		div#blog div.post {
+			width: 100%;
+			margin-bottom: 30px;
+		}
+		div#blog div.post img {
+			width: 100%;
+		}
+	div.post .meta span.date, div.post .meta span.comments {
+	    margin-right: 9px;
+	}
+
+	/* 5. Gallery */
+
+	ul.filter_list li {
+		margin-right: 0;
+	}	
+	div.page_wrapper section.container div#gallery.page ul.gallery_thumbnails img {
+		width: 100%;
+		height: 100%;
+	}
+	div.page_wrapper section.container div#gallery.page.with_sidebar ul.gallery_thumbnails img  {
+		width: 100%;
+		height: 100%;
+	}		
+	div.page_wrapper section.container div#gallery.page, div.page_wrapper section.container div#gallery.page ul.gallery_thumbnails.two_column, div.page_wrapper section.container div#gallery.page ul.gallery_thumbnails.three_column, div.page_wrapper section.container div#gallery.page ul.gallery_thumbnails.four_column {
+		width: 277px;
+	}	
+	div.page_wrapper section.container div#gallery ul.gallery_thumbnails li {
+		width: 277px;
+		height: 196px;
+		margin-bottom: 11px;
+		margin-right: 0px;
+	}		
+	div.page_wrapper section.container aside {
+		float: none;
+		clear: both;
+		overflow: hidden;
+		margin-top: 12px;
+	}
+	div.page_wrapper section.container aside div#sidebar div.widget_search {
+		margin-top: 20px;
+	}
+
+	/* 7. Donate */
+	
+	div#donate {
+		width: 87%;
+	}
+	div#donate h1 {
+		margin-bottom: 8px;
+	}
+		div#donate div#donation_level {
+			margin-top: 20px;
+			overflow: hidden;
+		}
+			div#donate div#donation_level div.box_heading {
+				margin-bottom: 14px;
+			}	
+		div#donate div#donation_level p.choose {
+			width: 100%;
+		}
+		div#donate div#donation_level ul.amount {
+			margin-top: 12px;
+			margin-bottom: 25px;
+		}
+			div#donate div#donation_level ul.amount li a {
+				margin-right: 7px;
+			}
+
+	/* 8. Contact */
+	
+	div#contact {
+		width: 87%;
+		margin: auto;
+	}
+		div#contact div.full {
+			margin-bottom: 14px;
+		}
+		div#contact h1 {
+			margin-bottom: 15px;
+		}
+		div#contact div.row {
+			width: 277px;
+		}
+			div#contact div.row p {
+				width: 89%;
+			    margin-right: 0;	
+			}
+		div#contact p {	
+		    margin-bottom: 18px;	
+		}
+		div#contact form {
+			overflow: hidden;
+		}
+		div#contact textarea {
+			width: 90%;
+			margin-top: 12px;
+			padding-top: 10px;
+		}
+			div#contact textarea label {
+				padding-top: 10px;
+			}
+			div#contact div.row input {
+			    width: 102%;
+			}
+			div#contact div.row select {
+				width: 100%;
+			}
+				div#contact div#location div.box_heading {
+					margin-bottom: 12px;
+				}
+				div#contact div#location div.one_fourth {
+					width: 100%;
+					margin-top: 12px;
+				}
+			div#contact div#location h4 {
+				margin-bottom: 6px;
+			}
+			div#contact div#location div.map {
+				width: 100%;
+				margin-right: 0;
+			}
+				div#contact div#location div.map iframe {
+					width: 96%;
+				}
+
+	/* 9. Footer */
+	footer {
+		padding-top: 20px;
+	}
+	footer div.one_fourth {
+		width: 100%;
+		margin-right: 0;
+		margin-top: 30px;
+	}
+	
+	/* 15. Events List */
+
+	div#events_list h1 {
+		margin-bottom: 18px;
+	}
+
+		div#events_list div.list div.event_details {
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		div#events_list div.list div.event_date {
+			overflow: hidden;
+			float: none;
+			width: 91%;
+		}
+		div#events_list div.list div.box_heading {
+			margin-bottom: 20px;
+		}
+
+	/* 16. Event Description */
+	
+	div#events h1 {
+		font-size: 25px;
+		margin-bottom: 18px;
+	}	
+	div#events a {
+		margin-top: -47px;
+	}	
+	div#events div.event ul.two {
+		margin-right: 0px;
+	}
+		div#events div.event p {
+			margin-bottom: 24px;
+		}
+		div#events div.event img {
+			width: 100%;
+		}
+		div#events div.event p.last {
+			margin-bottom: 28px;
+		}
+	div#events div.event div.event_date ul.one li, ul.three li {
+	    font-weight: normal;
+	}
+
+	/* 17. About */
+	
+	
+		div#about div.full p.larger {
+			text-align: center;
+			/*font-size: 14px;*/
+		}
+		div#about h1 {
+			margin-bottom: 14px;
+		}
+		div#about img {
+			width: 100%;
+		}
+/*	div#programs {
+		width: 280px;
+	}*/
+		div#programs div.box_heading {
+			margin-bottom: 22px;
+		}	
+		div#programs div.one_third {
+			width: 100%;
+		}
+	
+	/* -- Community Outreach */
+	.iframe-width { width: 100%; }
+	.form-container .column-50 { width: 100%; }
+	.lastcol50 { padding-top: 2em !important; }
+
+	/* Calendar */
+	.localendar_container table { width: 270px !important; }
+	
+	
+}

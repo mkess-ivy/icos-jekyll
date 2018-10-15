@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+	<body>
+	{% include header.html %}
+	{% include logo_line.html %}
+
+	<div class="page_wrapper">
+		<section class="container">
+
+			<!-- Start Page Content -->
+			<div id="blog" class="page with_sidebar">
+
+				<h1>ICOS Blog</h1>
+
+				<!-- Start Blog Post -->
+				
+				<div class="post">
+					<img src="{{ page.featured_image }}" alt="" class="rounded" />
+                    <p>Image provided by: AP</p>
+					<h3><a href="#">{{ page.title }}</a></h3>
+					<div class="meta">
+						<span class="date"> <span class="icon general">i</span> {{ page.date | date: '%B %d, %Y' }}</span>
+						<span class="author"> <span class="icon social_misc">x</span> by {{ page.author }}</span>
+					</div>
+					
+					{{ content }}
+				</div>
+				
+			</div>
+			<!-- End Page Content -->		
+		</section>
+	</div>
+
+	{% include footer.html %}
+	</body>
+</html>
+	

@@ -1,0 +1,62 @@
+// Width of the content area
+
+$on-phone               : 375px;
+$on-phone-large         : 480px;
+$on-small-tablet        : 600px;
+$on-tablet              : 767px;
+$on-laptop              : 992px;
+$on-desktop-small       : 1024px;
+$on-desktop             : 1280px;
+$on-tv                  : 1439px;
+
+// Media Query Mixins
+@mixin phone {
+  @media screen and (min-width: #{$on-phone}) {
+    @content;
+  }
+}
+@mixin phone-large {
+  @media screen and (min-width: #{$on-phone-large}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media screen and (min-width: #{$on-tablet}) {
+    @content;
+  }
+}
+@mixin laptop {
+  @media screen and (min-width: #{$on-laptop}) {
+    @content;
+  }
+}
+@mixin small-tablet {
+  @media screen and (min-width: #{$on-small-tablet}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media screen and (min-width: #{$on-tablet}) {
+    @content;
+  }
+}
+@mixin laptop {
+  @media screen and (min-width: #{$on-laptop}) {
+    @content;
+  }
+}
+@mixin desktop-small {
+  @media screen and (min-width: #{$on-desktop-small}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media screen and (min-width: #{$on-desktop}) {
+    @content;
+  }
+}
+@mixin tv {
+  @media screen and (min-width: #{$on-tv}) {
+    @content;
+  }
+}

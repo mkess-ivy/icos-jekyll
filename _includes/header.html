@@ -1,0 +1,16 @@
+<header>
+	{% include overlay.html %}
+	<div class="container">
+		
+		<!-- Start Navigation -->
+		<nav class="fullscreen_menu">
+			<ul>
+				{% assign current = page.url | downcase | split: '/' %}
+				{% for item in site.data.menu %}
+					<li {% if current[1] == item.url %} class="current-menu-item" {% endif %}><a href="/{{ item.url }}">{{ item.title }}</a></li>
+				{% endfor %}
+			</ul>
+		</nav>
+		<!-- End Navigation -->
+	</div><!-- .container -->
+</header>

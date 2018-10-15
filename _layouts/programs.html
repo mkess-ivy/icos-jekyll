@@ -1,0 +1,68 @@
+---
+layout: full_width
+---
+
+<div class="page_wrapper">
+	<section class="container">
+		<div id="about" class="page">
+			<h1>{{ page.title }}</h1>
+			<div class="programs_meta_wrapper">
+			<div class="frow justify-between">
+				<div class="programs_wide">
+					<img src="{{ page.featured_image }}" />
+				</div>
+				<div class="programs_narrow">
+					<h2>Population Served</h2>
+					<div class="programs_narrow_wrapper">
+						{% for population in page.population_served %}
+						<div class="programs_narrow_single">
+							<div class="frow justify-between">
+								<div class="icon general-enclosed programs_narrow_icon">
+									o
+								</div>
+								<div class="programs_narrow_text">
+									{{ population.group}}
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+					</div>
+					
+				</div>	
+			</div>
+		</div>
+		<div class="programs_full_wrapper">
+			<h2>Program Overview</h2>
+			<div class="programs_full_single">
+				{{ content }}
+			</div>
+		</div>
+	</section>
+	<div class="container">
+		<div class="key_info_wrapper">
+			<div class="frow justify-between">
+				<div class="key_info_single one">
+					<h3 class="key_info_title">{{ page.info_section_1_title }}</h3>
+					<ul>
+						{% for item in page.info_section_1 %}
+						<li><span class="key_info_icon icon general-enclosed">l</span>{{ item.point }}</li>
+						{% endfor %}
+					</ul>
+				</div>
+				
+				<div class="key_info_single two">
+					<h3 class="key_info_title">{{ page.info_section_2_title }}</h3>
+					<ul>
+						{% for item in page.info_section_2 %}
+						<li><span class="key_info_icon icon general-enclosed">l</span>{{ item.point }}</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+		
+</div>

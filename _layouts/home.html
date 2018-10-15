@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	{% include head.html %}
+
+	<body>
+	{% include header.html %}
+	{% include logo_line.html %}
+
+	<!-- Start Home -->
+	<div id="home" class="page_wrapper">
+		<section class="container">
+			<div class="page">
+
+				{% include components/slider.html %}
+
+				<div class="sub_heading">
+					<h2>Join Our Family</h2>
+					<span class="line"></span>
+				</div>
+				<div id="revolution_wrap" class="full">
+					<div class="frow justify-between">
+						<div id="description" class="one_third">
+							<h3>ICOS is dedicated to assisting adults with mental illness work toward greater independence.</h3>
+							<p>Intensive Community Outreach Services (ICOS) works to support individuals in an effort to help maintain and enhance their level of functioning in the home and community.</p>
+						</div>
+
+						<div id="actions">
+							<div class="frow justify-between">
+							{% for item in site.data.values %}
+							<div class="value_box">
+								<div class="inner">
+									<div class="box_heading">
+										<span class="icon general-enclosed">{{ item.font }}</span>
+										<h4>{{ item.value }}</h4>
+									</div>
+									<p>{{ item.value-description }}</p>
+								</div>
+							</div>
+							{% endfor %}
+							</div>
+						</div><!-- #actions -->
+					</div>
+
+				</div><!-- .revolution_wrap -->
+
+				<div id="items">
+					<div class="frow justify-between">
+						<div class="news_section">
+							<div class="box_heading">
+								<h2>Relevant Articles</h2>
+								<span class="line"></span>
+							</div>
+							<ul class="news_section_list">
+								{% for post in site.posts limit:3 %}
+								<li>
+									<h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
+									<p>{{ post.excerpt | truncatewords: 20 }}</p>
+								</li>
+								{% endfor %}
+								
+							</ul>
+						</div><!-- .news one_third -->
+
+						<div class="bottom_section">
+							<div class="frow justify-between">
+								<div class="events_section">
+									<div class="box_heading">
+										<h2>Service Offerings</h2>
+										<span class="line"></span>
+									</div>
+
+			            			<ul class="events_section_list">
+			            				{% for item in site.data.offerings %}
+										<li><h5>{{ item.offering }}</h5></li>
+										{% endfor %}
+			              				
+									</ul>
+								</div><!-- events one_third -->
+
+								<div id="sponsors" class="locations_section">
+									<div class="box_heading">
+										<h2>Service Locations</h2>
+										<span class="line"></span>
+									</div>
+									<ul>
+										<li><img src="images/content/location-1.png" alt="Location 1" /></li>
+										<li class="last"><img src="images/content/location-2.png" alt="Location 2" /></li>
+										<li><img src="images/content/location-3.png" alt="Location 3" /></li>
+										<li class="last"><img src="images/content/location-4.png" alt="Location 4" /></li>
+										<li><img src="images/content/location-5.png" alt="Location 5" /></li>
+										<li class="last"><img src="images/content/location-6.png" alt="Location 6" /></li>
+										<li><img src="images/content/powhatan.png" alt="Location 6" /></li>
+										<li class="last"><img src="images/content/goochland.png" alt="Location 6" /></li>
+										<li><img src="images/content/northernva.png" alt="Location 6" /></li>
+										<li class="last"><img src="images/content/location-7.png" alt="Location 7" /></li>
+										<li class="bottom last"><img src="images/content/location-8.png" alt="Location 8" /></li>
+									</ul>
+								</div><!-- #sponsors -->
+							</div>
+						</div>
+					</div>
+				</div><!-- #items -->
+			</div><!-- .page -->
+		</section><!-- .container -->
+	</div><!-- #home -->
+
+	{% include footer.html %}
+	</body>
+</html>

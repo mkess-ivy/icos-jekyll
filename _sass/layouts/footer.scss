@@ -1,0 +1,54 @@
+footer {
+	padding: 25px 20px;
+	@include tablet {
+		padding-top: 45px;	
+	}
+}
+footer div.copy {
+	clear: both;
+	text-align: center;
+	margin-top: 40px;
+}
+footer div.copy p {
+    -moz-transition: color 0.2s ease-in 0s, background 0.2s ease-in 0s;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    border-radius: 4px 4px 4px 4px;
+    color: #807f7f;
+    display: inline-block;
+    font-size: 11px;
+    margin: 0 0 30px;
+    padding: 4px 8px;
+    text-align: center;
+    line-height: 1.2;
+}
+.fb-btn img {
+	width: 50%;
+}
+.footer_contact {
+	list-style: none;
+}
+.call_now {
+	background: #d07837;
+	display: inline-block;
+	padding: 5px 12px;
+	border-radius: 6px;
+	font-weight: bold;
+	color: #070707;
+	font-size: 13px;
+
+	a {
+		color: #f7f7f7 !important;
+	}
+}
+.footer_programs_list {
+	list-style: none;
+	font-size: 13px;
+
+	li a {
+		color: #070707 !important;
+
+		&:hover {
+			color: #d07837 !important;
+		}
+	}
+}

@@ -1,0 +1,122 @@
+header {
+	background: url('/images/header.png') repeat-x;
+	height: 65px;
+}
+header .select-menu { display: none; }
+header nav.fullscreen_menu {
+	display: none;
+	@include laptop {
+		display: block;
+		float: left;
+		height: 65px;	
+	}
+	
+}
+header nav ul {
+	list-style: none;
+	padding-top: 22px;
+}
+header nav ul li {
+	@include laptop {
+		float: left;
+		margin-right: 15px;
+		position: relative;	
+	}
+	
+}
+header nav ul li a {
+	font-family: 'Cabin', sans-serif;
+	color: #fff;
+	text-decoration: none;
+	
+	font-weight: bold;
+	@include laptop {
+		padding: 5px 20px 5px 20px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		font-size: 14px;
+	}
+	
+}
+header nav ul li a:hover { background: rgba(0,0,0,0.15); }
+header nav ul li.current-menu-item a { background: rgba(0,0,0,0.30); }
+/* Sub Nav */
+header nav ul li ul{
+	list-style: none;
+	position: absolute;
+	z-index: 999999;
+	top: 20px;
+	left: 0;
+	width: 160px;
+	text-align: left;
+	border-top: none;
+	padding: 23px 0px 5px 0px;
+	display: none;
+	margin: 0;
+}
+header nav ul li ul li {
+	display: block;
+	width: 100%;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding: 2px 15px 2px 15px;
+	background: #000;
+	background: rgba(0,0,0,0.60);
+}
+header nav ul li ul li a,
+header nav ul li.current-menu-item ul li a,
+header nav ul li.current-menu-parent ul li a{
+	display: block;
+	padding: 8px 0px 8px 0px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #fff;
+	font-family: "Helvetica Neue", helvetica, sans-serif;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+header nav ul li.current-menu-item ul li a,
+header nav ul li.current-menu-parent ul li a{
+	background: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-color: #ddd;
+	box-shadow: none;
+	color: #666;
+}
+	header nav ul li ul li a:hover {
+		background: none;
+		color: #aaa;
+	}
+header nav ul li ul li ul {
+	left: 190px;
+	top: 0;
+	padding-top: 0;
+	display: none;
+}
+header aside {
+	float: right;
+	padding-top: 22px;
+}
+header nav select {
+	float: right;
+	margin: 17px 10px 0px 0px;
+  	-webkit-appearance: button;
+  	-webkit-border-radius: 2px;
+  	-webkit-padding-end: 20px;
+  	-webkit-padding-start: 2px;
+  	-webkit-user-select: none;
+  	background-position: center right;
+  	background-repeat: no-repeat;
+  	border: 1px solid #ccc;
+  	color: #555;
+	font-size: 13px;
+  	padding: 3px 3px 3px 5px;
+	width: 150px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}

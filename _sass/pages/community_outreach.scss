@@ -1,0 +1,23 @@
+.event-meta { text-transform: uppercase; text-align: center; }
+.event-title {  }
+.event-date { font-weight: bold; padding-bottom: 2em; }
+.center-pos { text-align: center; }
+.cal-pos { margin: 0 auto; }
+.view-cal-button { border: 1px solid black; }
+.mobile-only { display: none !important; }	
+.mobile-text { padding-top: 3em; color: #4a4a4a; }
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+.button-cal { width: 30%; margin: 4em auto 0 auto; }
+.fb-btn { padding: 1em 0; }
