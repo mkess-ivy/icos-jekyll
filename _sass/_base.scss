@@ -1,4 +1,5 @@
 @import 'helper/media_queries';
+@import 'helper/variables';
 
 * { margin: 0; padding: 0; }
 
@@ -15,7 +16,7 @@ li {
 	margin-bottom: 7px;
 }
 h1,h2,h3,h4,h5,h6 { font-weight: normal;  }
-h1,h2 { font-family: 'Pacifico', sans-serif; color: #d07837; }
+h1,h2 { font-family: 'Pacifico', sans-serif; color: $red; }
 h3,h4 { font-family: 'Cabin', sans-serif; font-weight: bold; }
 h1 {
 	font-size: 32px;
@@ -60,7 +61,7 @@ p {
 
 	}
 a {
-	color: #d07837;
+	color: $red;
 	outline: none;
 }
 a:hover { text-decoration: none; }
@@ -325,7 +326,7 @@ iframe {
 /*--------------------------------------------
 14. Icons
 ---------------------------------------------*/
-.icon { cursor: default; font-size: 18px; line-height: 1; color: #d07837; }
+.icon { cursor: default; font-size: 18px; line-height: 1; color: $red;  }
 /* Icons General */
 @font-face {
   font-family: 'FoundationIconsGeneral';
@@ -337,7 +338,7 @@ iframe {
   font-weight: normal;
   font-style: normal;
 }
-.icon.general { font-family: "FoundationIconsGeneral"; color: #d07837;}
+.icon.general { font-family: "FoundationIconsGeneral"; color: $red; }
 /* Foundation Icons General Enclosed */
 @font-face {
     font-family: 'FoundationIconsGeneralEnclosed';
@@ -361,7 +362,7 @@ iframe {
   font-weight: normal;
   font-style: normal;
 }
-.icon.social_misc { font-family: "FoundationIconsSocial"; color: #d07837;}
+.icon.social_misc { font-family: "FoundationIconsSocial"; color: $red; }
 /* Icons Social */
 @font-face {
 	font-family: 'IcoMoon';

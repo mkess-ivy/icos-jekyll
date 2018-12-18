@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, h2 {
   font-family: 'Pacifico', sans-serif;
-  color: #d07837; }
+  color: #EF4136; }
 
 h3, h4 {
   font-family: 'Cabin', sans-serif;
@@ -69,7 +69,7 @@ p.larger {
   color: #666; }
 
 a {
-  color: #d07837;
+  color: #EF4136;
   outline: none; }
 
 a:hover {
@@ -363,7 +363,7 @@ iframe {
   cursor: default;
   font-size: 18px;
   line-height: 1;
-  color: #d07837; }
+  color: #EF4136; }
 
 /* Icons General */
 @font-face {
@@ -374,7 +374,7 @@ iframe {
   font-style: normal; }
 .icon.general {
   font-family: "FoundationIconsGeneral";
-  color: #d07837; }
+  color: #EF4136; }
 
 /* Foundation Icons General Enclosed */
 @font-face {
@@ -395,7 +395,7 @@ iframe {
   font-style: normal; }
 .icon.social_misc {
   font-family: "FoundationIconsSocial";
-  color: #d07837; }
+  color: #EF4136; }
 
 /* Icons Social */
 @font-face {
@@ -742,7 +742,8 @@ footer {
 footer div.copy {
   clear: both;
   text-align: center;
-  margin-top: 40px; }
+  margin-top: 40px;
+  padding-top: 30px; }
 
 footer div.copy p {
   -moz-transition: color 0.2s ease-in 0s, background 0.2s ease-in 0s;
@@ -763,7 +764,7 @@ footer div.copy p {
   list-style: none; }
 
 .call_now {
-  background: #d07837;
+  background: #EF4136;
   display: inline-block;
   padding: 5px 12px;
   border-radius: 6px;
@@ -812,7 +813,7 @@ footer div.copy p {
   overflow: hidden; }
 
 section.page_heading {
-  background: #d07837;
+  background-color: #EF4136;
   width: 100%; }
   @media screen and (min-width: 767px) {
     section.page_heading {
@@ -824,7 +825,7 @@ section.page_heading.home {
   height: 360px; }
 
 section.page_heading .logo {
-  padding: 15px 0 0 20px;
+  padding: 15px 0 0 0px;
   overflow: hidden; }
 
 section.page_heading .logo a {
@@ -838,13 +839,19 @@ section.page_heading .logo a {
 
 section.page_heading .logo .tagline {
   font-family: 'Cabin';
-  font-size: 15px;
+  font-size: 16px;
   color: #fff;
   display: inline-block;
   margin-top: 15px; }
   @media screen and (min-width: 767px) {
     section.page_heading .logo .tagline {
-      margin-top: 32px; } }
+      margin-top: 25px; } }
+
+.logo a img {
+  width: 125px; }
+  @media screen and (min-width: 767px) {
+    .logo a img {
+      width: 145px; } }
 
 /* Page Layouts */
 div.page_wrapper {
@@ -911,7 +918,7 @@ div.box_heading span.line {
   margin-bottom: 10px; }
 
 header {
-  background: url("/images/header.png") repeat-x;
+  background-color: #58595B;
   height: 65px; }
 
 header .select-menu {
@@ -1381,7 +1388,7 @@ div.post .meta a:hover {
 
 div.post .meta .icon {
   font-size: 11px;
-  color: #d07837;
+  color: #EF4136;
   padding-right: 4px;
   position: relative;
   top: -1px; }

@@ -29,7 +29,8 @@
 	overflow: hidden;
 }
 section.page_heading {
-	background: #d07837;
+	// background: #d07837;
+	background-color: $red;
 	width: 100%;
 	
 	@include tablet {
@@ -43,29 +44,36 @@ section.page_heading.home {
 	height: 360px;
 }
 section.page_heading .logo {
-	padding: 15px 0 0 20px;
+	padding: 15px 0 0 0px;
 	overflow: hidden;
 }
-	section.page_heading .logo a {
-		font-size: 40px;
-		font-family: 'Pacifico';
-		text-shadow: 0px 2px rgba(0,0,0,0.36);
-		color: #fff;
-		text-decoration: none;
-		float: left;
-		margin-right: 25px;
-	}
-	section.page_heading .logo .tagline {
-		font-family: 'Cabin';
-		font-size: 15px;
-		color: #fff;
-		display: inline-block;
-		margin-top: 15px;
+section.page_heading .logo a {
+	font-size: 40px;
+	font-family: 'Pacifico';
+	text-shadow: 0px 2px rgba(0,0,0,0.36);
+	color: #fff;
+	text-decoration: none;
+	float: left;
+	margin-right: 25px;
+}
+section.page_heading .logo .tagline {
+	font-family: 'Cabin';
+	font-size: 16px;
+	color: #fff;
+	display: inline-block;
+	margin-top: 15px;
 
-		@include tablet {
-			margin-top: 32px;
-		}
+	@include tablet {
+		margin-top: 25px;
 	}
+}
+.logo a img {
+	width: 125px;
+
+	@include tablet {
+		width: 145px;
+	}
+}
 /* Page Layouts */
 div.page_wrapper {
 	background: #ebebeb;

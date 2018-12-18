@@ -1,5 +1,6 @@
 header {
-	background: url('/images/header.png') repeat-x;
+	// background: url('/images/header.png') repeat-x;
+	background-color: $dark-gray;
 	height: 65px;
 }
 header .select-menu { display: none; }

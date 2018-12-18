@@ -8,6 +8,7 @@ footer div.copy {
 	clear: both;
 	text-align: center;
 	margin-top: 40px;
+	padding-top: 30px;
 }
 footer div.copy p {
     -moz-transition: color 0.2s ease-in 0s, background 0.2s ease-in 0s;
@@ -28,7 +29,7 @@ footer div.copy p {
 	list-style: none;
 }
 .call_now {
-	background: #d07837;
+	background: $red;
 	display: inline-block;
 	padding: 5px 12px;
 	border-radius: 6px;
