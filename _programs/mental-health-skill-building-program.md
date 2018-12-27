@@ -3,7 +3,8 @@ layout: programs
 title: Mental Health Skill-Building Program
 featured_image: /images/content/classroom.jpg
 
-description: Our goal is to assist individuals to function independently in the community through mental health symptom management
+description: ICOS's community-based Mental Health Skill-Building Program will provide comprehensive assessments, short-term and solution-focused strategies.
+keywords: mental health, mental health skill building, mental illness, mental instability, adult mental health
 
 population_served:
 - group: Adults (ages 18+) who demonstrate a risk for out of home placement, hospitalization or social isolation

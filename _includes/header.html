@@ -7,7 +7,7 @@
 			<ul>
 				{% assign current = page.url | downcase | split: '/' %}
 				{% for item in site.data.menu %}
-					<li {% if current[1] == item.url %} class="current-menu-item" {% endif %}><a href="/{{ item.url }}">{{ item.title }}</a></li>
+					<li {% if current[1] == item.url %} class="current-menu-item" {% endif %}><a href="/{{ item.url }}">{{ item.title | replace:'Intensive In-Home Services Program | Community-Based & Mental Health Support Services','Progams' }}</a></li>
 				{% endfor %}
 			</ul>
 		</nav>

@@ -3,8 +3,8 @@ layout: full_width
 title: Referrals
 permalink: /referrals/
 
-description: Fill out our referral form and let's schedule a session to talk about behavioral health at Intensive Care Outpatient Services
-keywords: intensive care, behavioral health, Richmond behavioral health, mental health care, Richmond youth programs, ICOS
+description: Fill out a referral form for your child.
+keywords: mental health, mental illness, community based services, intensive in-home
 
 ---
 

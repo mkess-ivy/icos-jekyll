@@ -3,8 +3,8 @@ layout: full_width
 title: Contact
 permalink: /contact/
 
-description: ICOS serves the greater Virginia state providing mental health services, family treatment and outpatient services to provide quality services to all residents.
-keywords: ICOS schedule a session, call ICOS, Virginia behavioral health, Virginia mental health, training programs for youth and adults, mental health skills, communication, communication skills
+description: Contact ICOS today!
+keywords: mental health, mental illness, intensive in-home, community based support service
 ---
 
 <div class="page_wrapper">
