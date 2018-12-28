@@ -3,8 +3,8 @@ layout: full_width
 title: Blog
 permalink: /blog/
 
-description: The ICOS Blog shares information and relevant articles to provide information to our clients about different behavioral and mental health concerns.
-keywords: mental health blog, mental health concerns, mental health articles, spousal trauma, youth depression, divorce, family intervention
+description: Learn more about mental illness on the ICOS blog.
+keywords: mental health, mental illness, mental health stigma, mental illness stigma, mental health problems
 ---
 
 <div class="page_wrapper">

@@ -3,7 +3,8 @@ layout: programs
 title: Intensive Outpatient Services Program
 featured_image: /images/content/women_family.jpg
 
-description: Our goal is to assist individuals with substance abuse disorders and/or co-occurring mental health and substance abuse diagnoses.
+description: ICOS's community-based Intensive Outpatient Program will provide comprehensive assessments, short-term and solution-focused group and individual counseling to strengthen recovery, interpersonal and communication skills building to promote independence, medication management and health and safety monitoring. 
+keywords: intensive outpatient program, mental health, skill building, counselors, adult mental health program, substance abuse disorder, substance abuse recovery, ASAM
 
 population_served:
 - group: Adults (ages 18+) who meet ASAM criteria for the 2.1 Level of Care
