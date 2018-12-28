@@ -3,8 +3,8 @@ layout: full_width
 title: Community Outreach
 permalink: /community-outreach/
 
-description: ICOS believes in community outreach. Stay tuned to our events happening in our office.  Watch our video to learn more about who we are and how we are serving the community.
-keywords: community outreach, community service, ICOS team, mental health community, icos events
+description: ICOS is proud to be part of our local community.
+keywords: mental health, mental illness, mental health stigma, mental illness stigma, mental health problems, community based services
 ---
 
 <div class="page_wrapper">

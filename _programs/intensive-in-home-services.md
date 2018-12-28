@@ -3,7 +3,8 @@ layout: programs
 title: ICOS Intensive In-Home Services
 featured_image: /images/content/youth.jpg
 
-description: Our primary purpose is to identify at-risk individuals in the community and provide quality services
+description: ICOS's home-based Intensive In-Home Services Program will provide comprehensive assessments and short-term and solution-focused strategies to enhance emotional and behavioral stability in the home setting. 
+keywords: intensive in-home service, mental health, mental illness, counselors, youth intensive in-home service
 
 population_served:
 - group: Youth (ages 5-20) who demonstrate a risk for out of home placement, psychiatric hospitalization or social isolation.

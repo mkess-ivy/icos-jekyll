@@ -1,10 +1,10 @@
 ---
 layout: full_width
-title: Programs
+title: Intensive In-Home Services Program | Community-Based & Mental Health Support Services
 permalink: /programs/
 
-description: Intensive Care Outpatient Services offers outpatient services to youth and adults providing in-home services, workshops, and mental health skill-building
-keywords: mental skill building, mental skill-building, in-home services, mental health, behavioral health, psychotherapy, custom service plans, clinical assessments, therapy, intensive care, Richmond behavioral health, Richmond youth programs, ICOS
+description: ICOS offers several programs to help individuals, including intensive in-home services, intensive outpatient services and mental health skill building.
+keywords: intensive in-home, intensive outpatient, mental health, mental health skill building, mental illness, community-based support, communication and social skills building, daily living skills building, community resources, counselors
 ---
 
 <div class="page_wrapper">

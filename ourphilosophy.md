@@ -3,8 +3,8 @@ layout: full_width
 title: Our Philsophy
 permalink: /ourphilosophy/
 
-description: Our philosophy is to support individuals in maximizing their functional independence in the community.
-keywords: mental skill building, mental health, behavioral health, therapy, Richmond behavioral health, human services, community impact, training programs, improve today
+description: Intensive Community Outreach Services was founded with the goals to impact the community through increased self worth, leadership, and social connectedness. 
+keywords: intenstive in-home, community based support service, mental health, mental illness, social skills building, crisis treatment, mental health training programs
 ---
 
 <div class="page_wrapper">
