@@ -1067,7 +1067,7 @@ body.noScroll {
     transform: translateY(-11px) translateX(0) rotate(-45deg);
     background: #FFF; }
   .button_container span {
-    background: #d07837;
+    background: #EF4136;
     border: none;
     height: 5px;
     width: 100%;
@@ -1083,7 +1083,7 @@ body.noScroll {
 
 .overlay {
   position: fixed;
-  background: #d07837;
+  background: #EF4136;
   top: 0;
   left: 0;
   width: 100%;

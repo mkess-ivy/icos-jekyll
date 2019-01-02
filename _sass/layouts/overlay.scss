@@ -47,7 +47,7 @@ body.noScroll {
   }
   
   span {
-  background: $color-main;
+  background: $red;
   border: none;
   height: 5px;
   width: 100%;
@@ -69,7 +69,7 @@ body.noScroll {
 
 .overlay {
   position: fixed;
-  background: $color-main;
+  background: $red;
   top: 0;
   left: 0;
   width: 100%;

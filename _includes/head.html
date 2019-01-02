@@ -3,6 +3,8 @@
 
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="{{ page.description }}" />
+	<meta name="keywords" content="{{ page.keywords }}"
 
 	<!-- Vendor Stylesheets -->
 	<link rel="stylesheet" type="text/css" href="/css/vendor/hamburgers.css" />
@@ -16,8 +18,8 @@
 	<!-- Stylesheets -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html','' }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml" />
 
 	<!-- Favicons -->
 	<link rel="shortcut icon" href="/favicon.ico" />
