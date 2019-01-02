@@ -3,6 +3,8 @@ layout: blog_single
 title: "Children of Rich Parents Suffering Increased Mental Health Problems"
 author: "Martin Evans"
 featured_image: /images/content/desk.jpg
+description: Learn more about mental illness on the ICOS blog.
+keywords: mental health, mental illness, mental health stigma, mental illness stigma, mental health problems
 excerpt: "The children of rich parents are put under so much pressure to succeed they are at an increased risk of suffering of mental illness, a study has claimed.
 Scientists found that children from homes with an annual income of more than £100,000 a-year were suffering anxiety and depression at twice the normal rate of their less well off peers.
 Researchers found issues such as eating disorders, drug abuse, neuroses and self harming were soaring among wealthy teenagers."
