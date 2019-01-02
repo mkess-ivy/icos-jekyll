@@ -3,6 +3,8 @@ layout: blog_single
 title: "Mental Health Bills May Limit Young Americans' Clout"
 author: "Karen Kelly"
 featured_image: /images/content/kid.jpg
+description: Learn more about mental illness on the ICOS blog.
+keywords: mental health, mental illness, mental health stigma, mental illness stigma, mental health problems
 excerpt: "WASHINGTON — High mental health costs for young adults threaten to undermine a key assumption of the Affordable Care Act: that insuring more young people will lower costs because they are healthier and require less expensive care.  The Obama administration estimates that 2.7 million people between the ages of 18 and 30 need to buy health insurance through the federal and state marketplaces to offset the health care needs of older Americans buying insurance as required by the Affordable Care Act."
 ---
 
