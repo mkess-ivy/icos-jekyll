@@ -4,7 +4,7 @@ title: Our Philsophy
 permalink: /ourphilosophy/
 
 description: Intensive Community Outreach Services was founded with the goals to impact the community through increased self worth, leadership, and social connectedness. 
-keywords: intenstive in-home, community based support service, mental health, mental illness, social skills building, crisis treatment, mental health training programs
+keywords: intenstive in-home, community based support service, mental health, mental illness, social skills building, crisis treatment, mental health training programs, Alexandria, Mechanicsville, Norfolk, Richmond
 ---
 
 <div class="page_wrapper">

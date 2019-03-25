@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog/
 
 description: Learn more about mental illness on the ICOS blog.
-keywords: mental health, mental illness, mental health stigma, mental illness stigma, mental health problems
+keywords: mental health, mental illness, mental health stigma, mental illness stigma, mental health problems, Alexandria, Mechanicsville, Norfolk, Richmond
 ---
 
 <div class="page_wrapper">

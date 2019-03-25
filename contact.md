@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 
 description: Contact ICOS today!
-keywords: mental health, mental illness, intensive in-home, community based support service
+keywords: mental health, mental illness, intensive in-home, community based support service, Alexandria, Mechanicsville, Norfolk, Richmond
 ---
 
 <div class="page_wrapper">

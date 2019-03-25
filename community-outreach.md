@@ -4,7 +4,7 @@ title: Community Outreach
 permalink: /community-outreach/
 
 description: ICOS is proud to be part of our local community.
-keywords: mental health, mental illness, mental health stigma, mental illness stigma, mental health problems, community based services
+keywords: mental health, mental illness, mental health stigma, mental illness stigma, mental health problems, community based services, Alexandria, Mechanicsville, Norfolk, Richmond
 ---
 
 <div class="page_wrapper">

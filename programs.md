@@ -4,7 +4,7 @@ title: Intensive In-Home Services Program | Community-Based & Mental Health Supp
 permalink: /programs/
 
 description: ICOS offers several programs to help individuals, including intensive in-home services, intensive outpatient services and mental health skill building.
-keywords: intensive in-home, intensive outpatient, mental health, mental health skill building, mental illness, community-based support, communication and social skills building, daily living skills building, community resources, counselors
+keywords: intensive in-home, intensive outpatient, mental health, mental health skill building, mental illness, community-based support, communication and social skills building, daily living skills building, community resources, counselors, Alexandria, Mechanicsville, Norfolk, Richmond
 ---
 
 <div class="page_wrapper">
