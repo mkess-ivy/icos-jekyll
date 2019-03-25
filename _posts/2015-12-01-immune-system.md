@@ -4,7 +4,7 @@ title: "Immune System May Play Crucial Role in Mental Health"
 author: "Karen Weintraub"
 featured_image: /images/content/doctor_kit.jpg
 description: Learn more about mental illness on the ICOS blog.
-keywords: mental health, mental illness, mental health stigma, mental illness stigma, mental health problems
+keywords: mental health, mental illness, mental health stigma, mental illness stigma, mental health problems, Alexandria, Mechanicsville, Norfolk, Richmond
 excerpt: "Considering inflammation has helped neuroscientists cast a broader net when searching for causes of and possible treatments for mental illness, mood disorders and neurodevelopmental conditions. Last time you had a bad cold, you likely had less energy than usual. You lay around and didn't have any enthusiasm for your usual activities. After it dragged on for a day or two, a sense of helplessness probably set in. It was hard to remember what feeling good felt like or how you could ever bound off the couch again. In short, for a few days, you probably felt a lot like someone with depression."
 ---
 

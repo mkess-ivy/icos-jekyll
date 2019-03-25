@@ -4,7 +4,7 @@ title: "The Military's Hidden Mental Health Crisis: Spousal Trauma"
 author: "Sarah Lazare"
 featured_image: /images/content/military.jpg
 description: Learn more about mental illness on the ICOS blog.
-keywords: mental health, mental illness, mental health stigma, mental illness stigma, mental health problems
+keywords: mental health, mental illness, mental health stigma, mental illness stigma, mental health problems, Alexandria, Mechanicsville, Norfolk, Richmond
 excerpt: "How the US military is failing partners with secondary trauma: Army wife Melissa Bourgeois hit her breaking point five years ago when she was living at a U.S. military base in Vicenza, Italy, with her husband, Eric, an infantryman. Eric was just back from a harrowing second deployment to Afghanistan marked by frequent firefights. Filled with an uncontrollable rage, he spent his nights self-medicating at bars with his war buddies."
 ---
 

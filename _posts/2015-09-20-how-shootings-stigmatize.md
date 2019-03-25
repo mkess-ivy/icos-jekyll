@@ -4,7 +4,7 @@ title: "How Shootings Stigmatize People Living with Mental Illness"
 author: "Michael J. Fitzpatrick"
 featured_image: /images/content/red-shirt-boy.jpg
 description: Learn more about mental illness on the ICOS blog.
-keywords: mental health, mental illness, mental health stigma, mental illness stigma, mental health problems
+keywords: mental health, mental illness, mental health stigma, mental illness stigma, mental health problems, Alexandria, Mechanicsville, Norfolk, Richmond
 excerpt: "(CNN) -- When tragedies occur, such as the one at the Navy Yard in Washington this week, all Americans are deeply affected.
 They include the one in four American adults who experience mental health problems. That's approximately 60 million Americans. Their first reaction is much like that of anyone else: feelings of anger and anguish and wanting to know when such events will ever stop. "
 ---
