@@ -21,12 +21,11 @@ keywords: intenstive in-home, community based support service, mental health, me
 						<h4><b>Mission –  Improving Today, For a Better Tomorrow</b></h4>
 					</div>
 	                <div class="mk_half_column2">   
-					<p>Intensive Community Outreach Services was founded in 2008 with the goals to impact the community through increased self worth, leadership, and social connectedness. ICOS provides treatment planning and training programs to assist clients in maintaining and enhancing their level of functioning in home, school and community. ICOS provides therapeutic guidance, training and measurable goals while working with clients, family and community services to help each client meet their needs.</p></div>
+					<p>Intensive Community Outreach Services was founded in 2008 with the goals to impact the community through increased self worth, leadership, and social connectedness. ICOS provides treatment planning and training programs to assist clients in maintaining and enhancing their level of functioning in home, school and community. ICOS provides therapeutic guidance, training and measurable goals while working with clients, family and community services to help each client meet their needs.</p>
+					<p>Read our <a href="/reports/2018StakeholderReport.pdf" target="_blank">2018 Stakeholder Report</a>. 
+					</p></div>
 				</div>
 			</div>
-
-			
-
 		</div>
 
 	</section>
