@@ -782,6 +782,9 @@ footer div.copy p {
     .footer_programs_list li a:hover {
       color: #d07837 !important; }
 
+.spacer {
+  padding: 50px 0; }
+
 .container {
   width: 100%; }
   @media screen and (min-width: 480px) {
@@ -2120,3 +2123,23 @@ div#items div#sponsors ul li {
 
 #programs {
   margin-top: 50px; }
+
+.team-member {
+  padding: 0 20px 50px 0; }
+
+.team-image {
+  height: 290px;
+  width: 290px;
+  background-size: cover;
+  margin-bottom: 20px;
+  background-position: center; }
+
+.team-name {
+  font-size: 18px;
+  padding-bottom: 10px; }
+
+.team-detail {
+  font-size: 15px;
+  padding-bottom: 3px; }
+  .team-detail.bold {
+    font-weight: bold; }

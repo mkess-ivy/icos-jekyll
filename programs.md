@@ -26,7 +26,6 @@ keywords: intensive in-home, intensive outpatient, mental health, mental health 
 							{% endfor %}
 						</ul>
 					</div>
-
 					<div id="programs">
 						<div class="box_heading">
 							<h2>Capabilities</h2>
@@ -40,10 +39,8 @@ keywords: intensive in-home, intensive outpatient, mental health, mental health 
 								<li>Require intensive community based services, or are at imminent risk of placement due to mental health or behavioral issues</li>
 								<li>Have experienced trauma</li>
 							</ul>
-            
             				<p>Intensive In-Home counselors provide clinical interventions and support services necessary to successfully reintegrate and maintain each child in his or her home or community.  Intensive In-Home Counselors provide skill building sessions that help the child and family develop important social and relationship skills to assist with communication barriers, coping, and managing anger and stress.  Services are provided by ICOS are child-centered, family-focused, strength-based, culturally sensitive and responsive to each child's psychosocial and developmental needs. </p>
 						</div>
-
 						<div class="box_heading">
 							<span class="line"></span>
 							<h4>Community-Based & Mental Health Support Services</h4>
@@ -57,7 +54,6 @@ keywords: intensive in-home, intensive outpatient, mental health, mental health 
 							</ul>
 						</div><!-- .box_heading -->
 					</div><!-- #programs -->
-
 					<div id="programs">
 						<div class="box_heading">
 							<h2>Programs</h2>

@@ -1,0 +1,28 @@
+- name: Zena Akpeneye
+  image: /zena-akpeneye.jpg
+  position: Program Manager
+  location: Northern Region
+- name: Kathleen Benavidez
+  image: /kathleen-benavidez.jpg
+  position: Program Manager
+  location: Eastern Region
+- name: Tracey Harrison
+  image: /tracey-harrison.jpg
+  position: Administrative Assistant
+  location: Richmond Office
+- name: Sonia Jean-Marie
+  image: /sonia-jean-marie.jpg
+  position: Office Manager
+  location: Richmond Office
+- name: Kimberly Massenburg
+  image: /kimberly-massenburg.jpg
+  position: Program Manager
+  location: Southern Region
+- name: Yuri Norrell
+  image: /yuri-norrell.jpg
+  position: Operations Director
+  location: Richmond Office
+- name: Dawud Nubian
+  image: /dawud-nubian.jpg
+  position: Community Director
+  location: Richmond Office
