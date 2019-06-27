@@ -828,7 +828,7 @@ section.page_heading.home {
   height: 360px; }
 
 section.page_heading .logo {
-  padding: 15px 0 0 20px;
+  padding: 15px 20px 0 20px;
   overflow: hidden; }
   @media screen and (min-width: 600px) {
     section.page_heading .logo {
