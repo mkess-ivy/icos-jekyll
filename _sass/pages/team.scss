@@ -1,12 +1,32 @@
 .team-member {
 	padding: 0 20px 50px 0;
+	width: 100%;
+
+	@include small-tablet {
+		width: auto;
+	}
 }
 .team-image {
-	height: 290px;
-    width: 290px;
+	height: 350px;
+	width: 100%;
+	
     background-size: cover;
     margin-bottom: 20px;
     background-position: center;
+    @include small-tablet {
+    	height: 350px;
+    	width: 350px;
+    }
+    @include tablet {
+    	width: 330px;
+    }
+    @include desktop-small {
+		// height: 290px;
+    	width: 300px;	
+	}
+	// @include desktop {
+	// 	width: 330px;
+	// }
 }
 .team-name {
 	font-size: 18px;
