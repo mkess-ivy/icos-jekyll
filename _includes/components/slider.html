@@ -2,25 +2,26 @@
 <div class="flexslider-container">
 	<div id="slider" class="flexslider">
 		<ul class="slides">
+			{% for item in page.slider-block %}
 			<li>
-		    	<img src="/images/content/blue-shirt-woman.jpg" alt="" />
-				<p class="flex-caption">
-					<b>In-Home & School-Based Services</b> - Intensive In Home counselors provide clinical intervention and support services to youth.
-				</p>
+				
+		    	<img src="{{ item.image }}" alt="{{ item.image-alt-text }}" />
+		    	<div class="slider-wrapper">
+					<div class="slider-header">{{ item.slider-header }}</div>
+					<div class="slider-program"><a href="{{ item.cta}}">{{ item.program-name }}</a></div>
+					<div class="slider-text">{{ item.program-description }}</div>
+					<div class="slider-cta"><a href="{{ item.cta}}">learn more&nbsp;<i class="fas fa-arrow-circle-right"></i></a></div>
+				</div>
 		  	</li>
-		  	
-			<li>
+		  	{% endfor %}
+
+			<!-- <li>
+				<div class="slider-header">ICOS Program</div>
 		    	<img src="/images/content/family.jpg" alt="" />
 				<p class="flex-caption">
-					<b>Community Services and Mental Health Support Services</b> - ICOS works to support individuals to help maintain and enhance their lives.
+					<b><a href="/programs/mental-health-skill-building-program/">Mental Health Skill-building Program</a></b> - ICOS works to support individuals to help maintain and enhance their lives.
 				</p>
-		  	</li>
-				<li>
-		    	<img src="images/content/woman.jpg" alt="" />
-				<p class="flex-caption">
-					<b>Intensive Community Outreach Services</b> - Bring awareness to your cause with style and function.
-				</p>
-		  	</li>
+		  	</li> -->
 		</ul><!-- .slides -->
 	</div><!-- #slider -->
 </div><!-- .flexslider-container -->
