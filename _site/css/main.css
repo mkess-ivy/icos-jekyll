@@ -1791,6 +1791,14 @@ div#location div.one_fourth p {
 .referral-submit {
   margin-top: 20px; }
 
+.location-clear {
+  position: relative;
+  clear: both;
+  overflow: hidden; }
+
+.location-row {
+  margin-top: 20px; }
+
 div#gallery ul.gallery_thumbnails {
   overflow: hidden;
   width: 1020px; }
